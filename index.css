@@ -4,6 +4,7 @@ body {
   font-family: "Ubuntu", sans-serif;
   font-size: 1.125rem;
   font-weight: 300;
+  line-height: 1.6;
 }
 
 img {
@@ -59,6 +60,7 @@ strong {
   color: #1792d2;
   font-size: 0.75rem;
   margin: 0;
+  text-transform: uppercase;
 }
 
 .article-title {
@@ -74,6 +76,8 @@ strong {
   color: #1792d2;
   text-decoration: none;
   font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .article-read-more:hover,
@@ -89,11 +93,13 @@ strong {
 .widget-title,
 .widget-recent-post-title {
   font-size: 1rem;
+  line-height: 1.4;
 }
 
 .widget-title {
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
+  letter-spacing: 2px;
 }
 
 .widget-recent-post-title {
@@ -124,8 +130,10 @@ header {
 }
 
 footer {
-  background: #143774;
-  color: white;
+  background: #345480;
+  color: rgba(255, 255, 255, 0.65);
+  /* a = alpha */
+  /* alpha = opacity / transparency */
   text-align: center;
   padding: 3em 0;
 }
@@ -167,6 +175,8 @@ nav a {
   text-decoration: none;
   color: #707070;
   font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   padding: 0.25em 0;
 }
 
